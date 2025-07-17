@@ -1,0 +1,23 @@
+{
+  "name": "rsp-autostart",
+  "type": "module",
+  "bin": {
+    "autostart": "entry.js",
+    "rsp-autostart": "entry.js"
+  },
+  "version": "1.0.0",
+  "main": "entry.js",
+  "scripts": {
+    "inst-lib": "sudo rm -rf /usr/lib/rsp/service/rsp-autostart; sudo mkdir -p /usr/lib/rsp/service/rsp-autostart && sudo cp -rf ./service/source/* /usr/lib/rsp/service/rsp-autostart && sudo chmod 777 /usr/lib/rsp/service/rsp-autostart -R",
+    "inst-svc": "sudo rm -rf /etc/systemd/user/rsp-autostart.service; sudo cp -rf ./service/systemd/* /etc/systemd/user && systemctl start rsp-autostart.service --user",
+    "inst-bin": "sudo npm install -g ."
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "commander": "^13.1.0",
+    "yargs": "^17.7.2"
+  }
+}

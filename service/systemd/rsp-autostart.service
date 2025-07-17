@@ -1,0 +1,22 @@
+[Unit]
+Description=rsp-autostart
+After=network.target
+
+[Service]
+Type=exec
+WorkingDirectory=/usr/lib/rsp/service/rsp-autostart
+ExecStart=/usr/bin/node /usr/lib/rsp/service/rsp-autostart/start.js
+Restart=on-failure
+
+# Resource limits
+MemoryMax=512M
+CPUQuota=75%
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=rsp-browsed
+LogLevelMax=warning
+
+[Install]
+WantedBy=default.target
