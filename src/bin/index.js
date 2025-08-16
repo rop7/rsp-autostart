@@ -1,3 +1,5 @@
+#!/usr/bin/env -S node --no-warnings
+
 import api from '../api/index.js'
 import RSp from 'file:///usr/lib/node_modules/rsp-libcore.js/index.js'
 
