@@ -11,7 +11,9 @@
   },
   "version": "1.0.0",
   "main": "./src/api/index.js",
-  "scripts": {},
+  "scripts": {
+    "tag": "git tag v$(node -p \"require('./package.json').version\") && git push origin v$(node -p \"require('./package.json').version\")"
+  },
   "license": "ISC",
   "description": "",
   "dependencies": {
