@@ -15,7 +15,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@ropsoft/rsp-libcorejs": "npm:@jsr/ropsoft__rsp-libcorejs@^0.1.0",
+    "@ropsoft/rsp-libcore.js": "github:rop7/rsp-libcore.js#lattt",
     "chokidar": "^4.0.3",
     "commander": "^13.1.0",
     "yargs": "^17.7.2"
