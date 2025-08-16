@@ -1,6 +1,6 @@
 import fs from 'fs';
-import RSp from 'file:///usr/lib/node_modules/rsp-libcore.js/index.js'
-import { AUTOSTART_DIR } from '../cli/utils.js';
+import RSp from '@ropsoft/rsp-libcorejs'
+import { AUTOSTART_DIR } from '../bin/utils.js';
 
 const logger = new RSp.Logger();
 

@@ -1,9 +1,9 @@
 #!/usr/bin/env -S node --no-warnings
 
 import api from '../api/index.js'
-import RSp from 'file:///usr/lib/node_modules/rsp-libcore.js/index.js'
+import RSp from '@ropsoft/rsp-libcorejs'
 
-export default () => {
+const main = () => {
   
   new RSp.Cli('rsp-autostart', {
 
@@ -40,3 +40,7 @@ export default () => {
     }
   })
 }
+
+main()
+
+export default main;
