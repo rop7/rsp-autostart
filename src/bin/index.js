@@ -1,7 +1,7 @@
 #!/usr/bin/env -S node --no-warnings
 
 import api from '../api/index.js'
-import RSp from '@ropsoft/rsp-libcorejs'
+import RSp from '@ropsoft/rsp-libcore.js'
 
 const main = () => {
   

@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import RSp from '@ropsoft/rsp-libcorejs'
+import RSp from '@ropsoft/rsp-libcore.js'
 import { AUTOSTART_DIR, isValidDesktopFile } from '../bin/utils.js';
 
 const logger = new RSp.Logger(),

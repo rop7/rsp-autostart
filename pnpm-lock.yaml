@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@ropsoft/rsp-libcore.js':
-        specifier: github:rop7/rsp-libcore.js#lattt
-        version: '@rop7/rsp-libcore.js@git+https://git@github.com:rop7/rsp-libcore.js.git#1b701668b06bdc8528de1816fe7f6d70e4516f82'
+        specifier: github:rop7/rsp-libcore.js#latest
+        version: '@ropsoft/rsp-libcorejs@git+https://git@github.com:rop7/rsp-libcore.js.git#28cdcddb24af7d26548e87ccd0529a742c64aa67'
       chokidar:
         specifier: ^4.0.3
         version: 4.0.3
@@ -39,9 +39,9 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@rop7/rsp-libcore.js@git+https://git@github.com:rop7/rsp-libcore.js.git#1b701668b06bdc8528de1816fe7f6d70e4516f82':
-    resolution: {commit: 1b701668b06bdc8528de1816fe7f6d70e4516f82, repo: git@github.com:rop7/rsp-libcore.js.git, type: git}
-    version: 1.4.3
+  '@ropsoft/rsp-libcorejs@git+https://git@github.com:rop7/rsp-libcore.js.git#28cdcddb24af7d26548e87ccd0529a742c64aa67':
+    resolution: {commit: 28cdcddb24af7d26548e87ccd0529a742c64aa67, repo: git@github.com:rop7/rsp-libcore.js.git, type: git}
+    version: 1.7.0
 
   ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
@@ -361,7 +361,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@rop7/rsp-libcore.js@git+https://git@github.com:rop7/rsp-libcore.js.git#1b701668b06bdc8528de1816fe7f6d70e4516f82':
+  '@ropsoft/rsp-libcorejs@git+https://git@github.com:rop7/rsp-libcore.js.git#28cdcddb24af7d26548e87ccd0529a742c64aa67':
     dependencies:
       chalk: 5.5.0
       command: 0.0.5
