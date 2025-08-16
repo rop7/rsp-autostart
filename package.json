@@ -1,5 +1,9 @@
 {
-  "name": "@rop7/rsp-autostart",
+  "name": "@ropsoft/rsp-autostart",
+  "author": "@ropsoft <rop@ropsoft.cloud>",
+  "publishConfig": {
+    "registry": "https://npm.jsr.io"
+  },
   "type": "module",
   "bin": {
     "autostart": "./src/bin/index.js",
@@ -8,7 +12,6 @@
   "version": "1.0.0",
   "main": "./src/api/index.js",
   "scripts": {},
-  "author": "@ropsoft <rop@ropsoft.cloud>",
   "license": "ISC",
   "description": "",
   "dependencies": {
