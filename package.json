@@ -12,7 +12,7 @@
   "version": "1.2.0",
   "main": "./src/api/index.js",
   "scripts": {
-    "tag": "git tag v$(node -p \"require('./package.json').version\") && git push origin v$(node -p \"require('./package.json').version\")"
+    "tag": "git tag v$(node -p \"require('./package.json').version\")"
   },
   "license": "ISC",
   "description": "",
